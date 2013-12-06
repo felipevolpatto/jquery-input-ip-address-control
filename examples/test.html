@@ -1,0 +1,22 @@
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="../jquery.input-ip-address-control-1.0.min.js"></script>
+	<script>
+		$(function(){
+		    $('#ipv4').ipAddress();
+		    $('#ipv6').ipAddress({v:6});
+		});
+
+		//mask input type text (ipv4) : ___.___.___.___
+		//mask input type text (ipv6) : ____:____:____:____:____:____:____:____
+	</script>
+</head>
+
+<body>
+	<input type="text" name="ip" id="ipv4">
+	<input type="text" name="ip" id="ipv6">
+	<input type="button" value="Save" onclick="return false;">
+</body>
+
+</html>
