@@ -1,7 +1,7 @@
 jquery-input-ip-address-control
 ===============================
 
-Plugin controls the format of IPv4 or IPv6 addresses.
+Plugin controls the format of IPv4 or IPv6 addresses (BETA).
 
 ## Overview
 An Ip address controller.
